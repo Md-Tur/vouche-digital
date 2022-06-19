@@ -43,7 +43,7 @@ const Login = () => {
                     <div className='d-flex'>
                         <h4 style={{ Color: '#023047' }}>ATools<span className='text-danger'>.</span></h4>
                     </div>
-                    <div className='d-flex'>
+                    <div className='btn-top'>
                         <Button className='me-3 px-5' style={{ backgroundColor: '#023047' }}>Start Free Trial</Button>
                         <Button className='px-5 text-white' variant="warning">Login</Button>
                     </div>
@@ -54,10 +54,10 @@ const Login = () => {
 
             <section>
                 <div className='row mx-0'>
-                    <div className='col col-lg-5 px-0 d-flex justify-content-center align-items-center'>
+                    <div className='col col-lg-5 col-sm-12 col-12 px-0 d-flex justify-content-center align-items-center form-section'>
                         <div>
-                            <h3 className='font-weight-bold text-center' style={{ Color: '#023047' }}>Welcome Back</h3>
-                            <small style={{ padding: '8rem', Color: '#023047' }}>Sub-title text goes here</small>
+                            <h3 className='fw-bold text-center' style={{ Color: '#023047' }}>Welcome Back</h3>
+                            <small className='title'>Sub-title text goes here</small>
                             <Form onSubmit={handleSubmit} className='w-100'>
                                 <div className='position-relative'>
                                     <Form.Group className="mb-3 mt-3" controlId="formBasicEmail">
@@ -74,10 +74,10 @@ const Login = () => {
                                     Login
                                 </Button>
                                 <div>
-                                    <div className='d-flex justify-content-between'>
-                                        <div class="form-check">
-                                            <input style={{ backgroundColor: '#023047' }} class="form-check-input" type="checkbox" value="" id="" />
-                                            <label class="form-check-label" for="" style={{ Color: '#023047' }}>
+                                    <div className='d-flex justify-content-between text'>
+                                        <div className="form-check">
+                                            <input style={{ backgroundColor: '#023047' }} className="form-check-input" type="checkbox" value="" id="" />
+                                            <label className="form-check-label" htmlFor="" style={{ Color: '#023047' }}>
                                                 Remember Password
                                             </label>
                                         </div>
@@ -90,7 +90,7 @@ const Login = () => {
                             </Form>
                         </div>
                     </div>
-                    <div className='col col-lg-7 px-0'>
+                    <div className='col col-lg-7 px-0 img-section'>
                         <img src={login} alt="" className='img-fluid' />
                     </div>
                 </div>

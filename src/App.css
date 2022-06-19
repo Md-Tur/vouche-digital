@@ -1,3 +1,37 @@
 .App {
   font-family: 'Roboto', sans-serif;
 }
+
+.btn-top {
+  display: flex;
+}
+
+.title {
+  padding: 100px;
+  color: #023047;
+}
+
+.text {
+  font-size: small;
+}
+
+@media only screen and (max-width: 576px) {
+
+  .btn-top,
+  .img-section {
+    display: none;
+  }
+
+  .form-section {
+    padding-top: 10rem;
+  }
+
+  .title {
+    padding: 50px;
+  }
+
+  .text {
+    font-size: 10px;
+  }
+
+}
